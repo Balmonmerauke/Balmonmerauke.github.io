@@ -1,0 +1,48 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+#information {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+/* membuat kotak button */
+.container .row #btn {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ffff;
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .row a #btn {
+  text-decoration: none;
+  color: black;
+}
+
+.container .row a #btn:hover {
+  background-color: black;
+  color: white;
+}
+/* akhir kotak button */
+
+#visimisi {
+  padding-top: 8rem;
+}
+
+#perizinan {
+  padding-top: 8rem;
+}
